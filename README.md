@@ -45,7 +45,7 @@ CuraMed allows users to:
 
 # ✨ Key Features
 
-## 🔐 1. Secure Authentication
+## 1. Secure Authentication
 
 CuraMed includes a complete authentication system using:
 
@@ -58,7 +58,7 @@ CuraMed includes a complete authentication system using:
 
 ---
 
-## 🧠 2. Diabetes Risk Prediction
+## 2. Diabetes Risk Prediction
 
 The core feature of CuraMed is an ML-powered diabetes risk assessment workflow.
 
@@ -91,7 +91,7 @@ The Pima dataset contains 768 observations with eight input variables and a bina
 
 ---
 
-# 🤖 3. Machine Learning Pipeline
+# 3. Machine Learning Pipeline
 
 CuraMed does not train a model every time a user requests a prediction.
 
@@ -149,7 +149,7 @@ The best-performing model is selected for the final prediction pipeline.
 
 ---
 
-# 📊 4. Dataset Analytics
+# 4. Dataset Analytics
 
 CuraMed also provides a general-purpose CSV analytics workflow.
 
@@ -193,7 +193,7 @@ The analytics engine can perform operations such as:
 
 ---
 
-# 💡 5. Educational AI Explanations
+# 5. Educational AI Explanations
 
 CuraMed optionally integrates **Google Gemini** to generate simple educational explanations after the ML prediction.
 
@@ -228,7 +228,7 @@ If the Gemini API is unavailable or no API key is configured, CuraMed continues 
 
 ---
 
-# 📄 6. PDF Reports
+# 6. PDF Reports
 
 Users can generate downloadable PDF reports containing information such as:
 
@@ -244,7 +244,7 @@ PDF generation is handled by **ReportLab** on the backend.
 
 ---
 
-# 📈 7. Prediction History
+# 7. Prediction History
 
 Authenticated users can access their previous assessments.
 
@@ -260,7 +260,7 @@ The history system supports:
 
 ---
 
-# 📊 8. Dashboard
+# 8. Dashboard
 
 The CuraMed dashboard provides an overview of the user's prediction activity.
 
@@ -308,8 +308,8 @@ It includes:
               │
               ▼
       ┌───────────────────┐
-      │ MongoDB Atlas      │
-      │      PyMongo       │
+      │ MongoDB Atlas     │
+      │      PyMongo      │
       └───────────────────┘
 
               │
@@ -477,7 +477,7 @@ GET /api/reports/pdf/{prediction_id}
 
 ---
 
-# 🔄 Prediction Workflow
+# Prediction Workflow
 
 The complete prediction process is:
 
@@ -524,7 +524,7 @@ Educational Explanation
 
 ---
 
-# 🧪 Machine Learning Methodology
+#💻 Machine Learning Methodology
 
 The ML pipeline follows a reproducible training workflow.
 
@@ -685,7 +685,7 @@ py -3 -m pip install -r requirements.txt
 
 ---
 
-# 🔑 3. Environment Variables
+# 3. Environment Variables
 
 Create a `.env` file based on `.env.example`.
 
@@ -717,7 +717,7 @@ with placeholder values.
 
 ---
 
-# 🚀 4. Start the Backend
+# 4. Start the Backend
 
 From the CuraMed root directory:
 
@@ -739,7 +739,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-# 💻 5. Frontend Setup
+# 5. Frontend Setup
 
 Open a **second terminal**.
 
@@ -769,7 +769,7 @@ http://localhost:5173
 
 ---
 
-# 🔗 Local Development Architecture
+# Local Development Architecture
 
 During development, the application runs as two services:
 
@@ -794,7 +794,7 @@ During development, the application runs as two services:
 
 ---
 
-# 🧪 Testing
+# Testing
 
 The project is designed to include automated testing for critical backend functionality.
 
@@ -900,7 +900,7 @@ Model performance is evaluated using multiple classification metrics.
 
 ---
 
-# 📈 Why Multiple Models?
+# Why Multiple Models?
 
 Instead of assuming that one algorithm is automatically the best, CuraMed evaluates multiple approaches.
 
@@ -946,7 +946,7 @@ This prevents the generative AI component from becoming the source of the medica
 
 ---
 
-# 🎨 UI/UX Design
+# UI/UX Design
 
 CuraMed follows a modern healthcare startup design philosophy.
 
@@ -967,7 +967,7 @@ The goal is for CuraMed to feel like a **real healthcare technology product**, r
 
 ---
 
-# 🚀 Deployment
+# Deployment
 
 The planned production architecture is:
 
@@ -1040,7 +1040,7 @@ CuraMed has not been clinically validated, approved as a medical device, or eval
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 Potential future development includes:
 
@@ -1114,7 +1114,7 @@ The project also demonstrates how deterministic ML systems and generative AI sys
 
 ---
 
-# 👩‍💻 Project Information
+# Project Information
 
 **Project:** CuraMed — Smart Healthcare Analytics & Disease Risk Prediction Platform
 
@@ -1128,7 +1128,7 @@ The project also demonstrates how deterministic ML systems and generative AI sys
 
 ---
 
-# 🤝 Contributing
+# Contributing
 
 Contributions, suggestions, and improvements are welcome.
 
