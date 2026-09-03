@@ -91,7 +91,7 @@ The Pima dataset contains 768 observations with eight input variables and a bina
 
 ---
 
-# 3. Machine Learning Pipeline
+## 3. Machine Learning Pipeline
 
 CuraMed does not train a model every time a user requests a prediction.
 
@@ -149,7 +149,7 @@ The best-performing model is selected for the final prediction pipeline.
 
 ---
 
-# 4. Dataset Analytics
+## 4. Dataset Analytics
 
 CuraMed also provides a general-purpose CSV analytics workflow.
 
@@ -193,7 +193,7 @@ The analytics engine can perform operations such as:
 
 ---
 
-# 5. Educational AI Explanations
+## 5. Educational AI Explanations
 
 CuraMed optionally integrates **Google Gemini** to generate simple educational explanations after the ML prediction.
 
@@ -228,7 +228,7 @@ If the Gemini API is unavailable or no API key is configured, CuraMed continues 
 
 ---
 
-# 6. PDF Reports
+## 6. PDF Reports
 
 Users can generate downloadable PDF reports containing information such as:
 
@@ -244,7 +244,7 @@ PDF generation is handled by **ReportLab** on the backend.
 
 ---
 
-# 7. Prediction History
+## 7. Prediction History
 
 Authenticated users can access their previous assessments.
 
@@ -260,7 +260,7 @@ The history system supports:
 
 ---
 
-# 8. Dashboard
+## 8. Dashboard
 
 The CuraMed dashboard provides an overview of the user's prediction activity.
 
@@ -435,7 +435,7 @@ CuraMed/
 
 ---
 
-# 🔌 API Architecture
+## 🔌 API Architecture
 
 CuraMed exposes REST APIs through FastAPI.
 
@@ -477,7 +477,7 @@ GET /api/reports/pdf/{prediction_id}
 
 ---
 
-# Prediction Workflow
+## Prediction Workflow
 
 The complete prediction process is:
 
@@ -524,7 +524,7 @@ Educational Explanation
 
 ---
 
-#💻 Machine Learning Methodology
+##💻 Machine Learning Methodology
 
 The ML pipeline follows a reproducible training workflow.
 
@@ -592,7 +592,7 @@ This allows the backend to load the trained pipeline during application startup 
 
 ---
 
-# 🗄️ Database Architecture
+## 🗄️ Database Architecture
 
 CuraMed is designed to use **MongoDB Atlas** for persistent application data.
 
@@ -615,7 +615,7 @@ For local development/testing, the backend can use its configured local fallback
 
 ---
 
-# 🔐 Security
+## 🔐 Security
 
 Security considerations implemented in the project include:
 
@@ -634,9 +634,9 @@ Before publishing the repository, ensure that secrets are never committed. GitHu
 
 ---
 
-# ⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
-## Prerequisites
+### Prerequisites
 
 Make sure the following are installed:
 
@@ -648,7 +648,7 @@ Make sure the following are installed:
 
 ---
 
-## 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/CuraMed.git
@@ -657,7 +657,7 @@ cd CuraMed
 
 ---
 
-## 🐍 2. Backend Setup
+### 🐍 2. Backend Setup
 
 Navigate to the project root:
 
@@ -685,7 +685,7 @@ py -3 -m pip install -r requirements.txt
 
 ---
 
-## 3. Environment Variables
+### 3. Environment Variables
 
 Create a `.env` file based on `.env.example`.
 
@@ -717,7 +717,7 @@ with placeholder values.
 
 ---
 
-## 4. Start the Backend
+### 4. Start the Backend
 
 From the CuraMed root directory:
 
@@ -739,7 +739,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 5. Frontend Setup
+### 5. Frontend Setup
 
 Open a **second terminal**.
 
@@ -769,7 +769,7 @@ http://localhost:5173
 
 ---
 
-## Local Development Architecture
+### Local Development Architecture
 
 During development, the application runs as two services:
 
@@ -794,7 +794,7 @@ During development, the application runs as two services:
 
 ---
 
-## Testing
+### Testing
 
 The project is designed to include automated testing for critical backend functionality.
 
@@ -835,7 +835,7 @@ Testing areas include:
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
 > Add screenshots of the actual application here once the final UI is ready.
 
@@ -885,7 +885,7 @@ GitHub supports relative image paths in README files, so keeping screenshots ins
 
 ---
 
-# 📊 Model Performance
+## 📊 Model Performance
 
 Model performance is evaluated using multiple classification metrics.
 
@@ -900,7 +900,7 @@ Model performance is evaluated using multiple classification metrics.
 
 ---
 
-## Why Multiple Models?
+### Why Multiple Models?
 
 Instead of assuming that one algorithm is automatically the best, CuraMed evaluates multiple approaches.
 
@@ -910,7 +910,7 @@ For a healthcare-oriented classification problem, metrics such as **recall, prec
 
 ---
 
-## 🧠 Why Separate ML and Gemini?
+### 🧠 Why Separate ML and Gemini?
 
 One of the main architectural decisions in CuraMed is the strict separation between **prediction** and **explanation**.
 
@@ -967,7 +967,7 @@ The goal is for CuraMed to feel like a **real healthcare technology product**, r
 
 ---
 
-# Deployment
+## Deployment
 
 The planned production architecture is:
 
