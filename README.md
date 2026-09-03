@@ -657,7 +657,7 @@ cd CuraMed
 
 ---
 
-# 🐍 2. Backend Setup
+## 🐍 2. Backend Setup
 
 Navigate to the project root:
 
@@ -685,7 +685,7 @@ py -3 -m pip install -r requirements.txt
 
 ---
 
-# 3. Environment Variables
+## 3. Environment Variables
 
 Create a `.env` file based on `.env.example`.
 
@@ -717,7 +717,7 @@ with placeholder values.
 
 ---
 
-# 4. Start the Backend
+## 4. Start the Backend
 
 From the CuraMed root directory:
 
@@ -739,7 +739,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-# 5. Frontend Setup
+## 5. Frontend Setup
 
 Open a **second terminal**.
 
@@ -769,7 +769,7 @@ http://localhost:5173
 
 ---
 
-# Local Development Architecture
+## Local Development Architecture
 
 During development, the application runs as two services:
 
@@ -794,7 +794,7 @@ During development, the application runs as two services:
 
 ---
 
-# Testing
+## Testing
 
 The project is designed to include automated testing for critical backend functionality.
 
@@ -900,7 +900,7 @@ Model performance is evaluated using multiple classification metrics.
 
 ---
 
-# Why Multiple Models?
+## Why Multiple Models?
 
 Instead of assuming that one algorithm is automatically the best, CuraMed evaluates multiple approaches.
 
@@ -910,7 +910,7 @@ For a healthcare-oriented classification problem, metrics such as **recall, prec
 
 ---
 
-# 🧠 Why Separate ML and Gemini?
+## 🧠 Why Separate ML and Gemini?
 
 One of the main architectural decisions in CuraMed is the strict separation between **prediction** and **explanation**.
 
@@ -946,7 +946,7 @@ This prevents the generative AI component from becoming the source of the medica
 
 ---
 
-# UI/UX Design
+## UI/UX Design
 
 CuraMed follows a modern healthcare startup design philosophy.
 
@@ -1006,7 +1006,7 @@ Planned deployment:
 
 ---
 
-# ⚠️ Limitations
+## ⚠️ Limitations
 
 CuraMed is an educational and portfolio project and has several important limitations.
 
@@ -1040,7 +1040,7 @@ CuraMed has not been clinically validated, approved as a medical device, or eval
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 Potential future development includes:
 
@@ -1064,7 +1064,7 @@ Potential future development includes:
 
 ---
 
-# 🛡️ Healthcare Disclaimer
+## 🛡️ Healthcare Disclaimer
 
 > **CuraMed is an educational software project and is not a medical diagnostic system.**
 >
@@ -1076,7 +1076,7 @@ Potential future development includes:
 
 ---
 
-# 📚 Dataset
+## 📚 Dataset
 
 The diabetes prediction workflow uses the **Pima Indians Diabetes Dataset**.
 
@@ -1092,7 +1092,7 @@ For your final repository, I recommend linking to the authoritative dataset sour
 
 ---
 
-# 📖 Learning Objectives
+## 📖 Learning Objectives
 
 This project was developed to explore the integration of:
 
@@ -1114,7 +1114,7 @@ The project also demonstrates how deterministic ML systems and generative AI sys
 
 ---
 
-# Project Information
+## Project Information
 
 **Project:** CuraMed — Smart Healthcare Analytics & Disease Risk Prediction Platform
 
@@ -1128,7 +1128,7 @@ The project also demonstrates how deterministic ML systems and generative AI sys
 
 ---
 
-# Contributing
+## Contributing
 
 Contributions, suggestions, and improvements are welcome.
 
@@ -1149,7 +1149,7 @@ Make your changes, test them, and submit a pull request.
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project is intended primarily for educational and portfolio purposes.
 
@@ -1157,7 +1157,7 @@ If you choose to publish it under MIT, add the corresponding `LICENSE` file to t
 
 ---
 
-# ⭐ Acknowledgements
+## ⭐ Acknowledgements
 
 * **Scikit-learn** — Machine learning framework
 * **FastAPI** — Backend API framework
