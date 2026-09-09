@@ -1157,21 +1157,6 @@ If you choose to publish it under MIT, add the corresponding `LICENSE` file to t
 
 ---
 
-## ⭐ Acknowledgements
-
-* **Scikit-learn** — Machine learning framework
-* **FastAPI** — Backend API framework
-* **React** — Frontend framework
-* **Vite** — Frontend development tooling
-* **Tailwind CSS** — UI styling
-* **Pandas & NumPy** — Data processing
-* **MongoDB** — Database
-* **ReportLab** — PDF generation
-* **Google Gemini** — Educational AI explanations
-* **UCI Machine Learning Repository** — Dataset source
-
----
-
 <p align="center">
 
 ### 🩺 CuraMed
